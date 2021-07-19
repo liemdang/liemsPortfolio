@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+      <section>
+        <div class="intro-container">
+          <div class="intro-text">
+            <h2>Hallo, ich bin Liem Dang</h2>
+            <p>Frontendentwickler aus Berlin. Ich entwickle Websites mit HTML, CSS, JavaScript und React. <br />
+            Hier möchte ich kurz meine Projekte vorstellen:</p>
+          </div>
+          <img class="profile-photo" src="images/liem-about.jpg" alt="liem dang" />
+        </div>
+      </section>
+      <section>
+          <div class="project-container">
+            <div class="description-container">
+              <div class="title-container">
+                <i class="fa fa-caret-right arrow" id="title1" onclick="showDescription(this.id)" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"></i>
+                <h3>Rest Countries API</h3>
+              </div>
+              <div class="collapse" id="collapseExample">
+                <p >Bei dieser <a href="https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca">Challenge von Frontendmentor</a> wurde die <a href="https://restcountries.eu/">Rest Countries API</a> verwendet. Hier kann man Suchergebnisse nach Region filtern und sich Details zu den jeweiligen Ländern anzeigen lassen.</p>
+                <div class="code-container"><a href="https://github.com/liemdang/countries-api"><img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="github icon"/><span  class="link-code">Zum Github Code</span></a></div>
+              </div>
+            </div>
+            <a href="https://liems-countries-api.netlify.app/"><img class="project-image" src="images/countries-api.JPG" alt="countries-api" /></a>
+          </div>
+          
+        <div class="project-container">
+            <div class="description-container">
+          <div class="title-container">
+            <i class="fa fa-caret-right arrow" id="title2" onclick="showDescription(this.id)" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2"></i>
+            <h3>Crowdfunding Product Page</h3>
+          </div>
+            <div class="collapse" id="collapseExample2">
+              <p>Bei diesem <a href="https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR">Projekt von Frontendmentor</a> gibt es eine progressbar, die einem den aktuellen Stand der Spenden anzeigt. Bei einer weiteren Spende füllt sich diese Fortschrittsanzeige. <br>Für das Styling wurde zum Großteil Bootstrap verwendet. </p>
+            <div><a href="https://github.com/liemdang/crowdfunding-challenge"><img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="github icon"/><span  class="link-code">Zum Github Code</span></a></div>
+          </div>
+        </div>
+          <a href="https://liems-crowdfunding-challenge.netlify.app/"  class="text-center"><img class="project-image text-center" src="images/crowdfunding.JPG" alt="crowdfunding" /></a>
+        </div>
+
+        <div class="project-container">
+            <div class="description-container">
+          <div class="title-container">
+            <i class="fa fa-caret-right arrow" id="title3" onclick="showDescription(this.id)" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3"></i>
+            <h3>Memory</h3>
+          </div>
+          <div class="collapse" id="collapseExample3">
+            <p>Dies ist ein Memory Spiel für 2 Spieler. Man wählt für ein Spiel eine Anzahl zwischen 8 und 20 Kartenpaaren aus, die in zufälliger Reihenfolge angeordnet werden. Die Bilder für die Memorykarten werden über eine URL aufgerufen, die eine Bildersammlung für Roboter bereitstellt.</p>
+            <div><a href="https://github.com/liemdang/memory"><img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="github icon"/><span  class="link-code">Zum Github Code</span></a></div>
+          </div>
+        </div>
+          <a href="liems-memory.web.app"  class="text-center"><img class="project-image text-center" src="images/memory.JPG" alt="memory" /></a>
+        </div>
+
+        <div class="project-container">
+            <div class="description-container">
+          <div class="title-container">
+            <i class="fa fa-caret-right arrow" id="title4" onclick="showDescription(this.id)" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4"></i>
+            <h3>Pokédex</h3>
+          </div>
+          <div  class="collapse" id="collapseExample4">
+            <p>Diese Pokédex App greift auf die <a href="https://pokeapi.co/">pokéAPI</a> zu. Die Statuswerte werden jeweils mit einer progressbar visualisiert. <br>
+              Für eine bessere Perfomance der Seite wurde lazy loading angewendet und weitere Pokémon werden beim scrollen geladen.</p>
+              <div><a href="https://github.com/liemdang/pokedex"><img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="github icon"/><span  class="link-code">Zum Github Code</span></a></div>
+          </div>
+        </div>
+          <a href="https://liems-pokedex.web.app"  class="text-center"><img class="project-image text-center" src="images/pokedex.JPG" alt="pokedex" /></a>
+        </div>
+
+        <div class="project-container">
+            <div class="description-container">
+                <div class="title-container">
+                    <i class="fa fa-caret-right arrow" id="title5" onclick="showDescription(this.id)" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5"></i>
+                    <h3>IP Address Tracker</h3>
+                </div>
+                <div class="collapse" id="collapseExample5">
+                  <p>Dieses Projekt ist eine <a href="https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0">Challenge von Frontendmentor.</a> Hier wird auf die <a href="https://geo.ipify.org/">Geolocation API</a> zugegriffen und zeigt den Standort des Hosts einer IP Adresse oder einer Domain an.<br>
+                    Für die Darstellung der Map wurde Leaflet.js verwendet. Die Anwendung wurde nach dem Mobile First Prinzip entwickelt.</p>
+                  <div><a href="https://github.com/liemdang/ipaddresstracker"><img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" alt="github icon"/><span  class="link-code">Zum Github Code</span></a></div>
+                </div>
+            </div>
+          <a href="https://liems-ipaddresstracker.netlify.app/"><img class="project-image text-center" src="images/ipAddressTracker.JPG" alt="ipaddresstracker" /></a>
+        </div>
+      </section>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
